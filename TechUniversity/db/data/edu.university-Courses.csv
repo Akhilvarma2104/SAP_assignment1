@@ -1,0 +1,4 @@
+code,title,description,credits,maxStudents,currentEnrolled,semester,departmentCode,isActive
+CS101,Intro to CAP,Basics of Cloud Application Programming,3,30,5,1,CS,true
+CS102,Database Design,Learning SQL and NoSQL,4,25,25,2,CS,true
+ME101,Thermodynamics,Study of heat and energy,3,40,10,1,ME,true

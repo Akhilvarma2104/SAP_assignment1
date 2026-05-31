@@ -1,0 +1,3 @@
+studentId,courseCode,enrollmentDate,status,grade,gradePoints,attendancePercent
+f303ade3-3333-4000-c000-000000000001,CS101,2026-05-31,Enrolled,A,4.00,95.00
+f303ade3-3333-4000-c000-000000000002,ME101,2026-06-01,Enrolled,B,3.00,88.00
