@@ -1,0 +1,6 @@
+ID,registrationNumber,type,make,status,capacity
+f303ade3-1111-4000-c000-000000000001,TS-01-AB-1234,Van,Tata,Available,1000
+f303ade3-1111-4000-c000-000000000002,TS-02-BC-2345,Truck,Leyland,Available,5000
+f303ade3-1111-4000-c000-000000000003,TS-03-CD-3456,Bike,Hero,OnTrip,50
+f303ade3-1111-4000-c000-000000000004,TS-04-DE-4567,Van,Mahindra,Maintenance,1200
+f303ade3-1111-4000-c000-000000000005,TS-05-EF-5678,Truck,Eicher,Available,4000
