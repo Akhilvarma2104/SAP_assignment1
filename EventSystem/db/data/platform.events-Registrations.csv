@@ -1,0 +1,3 @@
+ID,eventId,attendeeName,attendeeEmail,ticketType,registrationDate,status,amountPaid
+r404ade3-4444-4000-c000-000000000001,e202ade3-2222-4000-c000-000000000001,Mike Ross,mike@pearson.com,VIP,2026-05-31,Confirmed,100.00
+r404ade3-4444-4000-c000-000000000002,e202ade3-2222-4000-c000-000000000001,Harvey Specter,harvey@pearson.com,General,2026-05-31,Confirmed,100.00

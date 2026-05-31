@@ -1,0 +1,4 @@
+ID,name,address,city,capacity,type,hourlyRate,isActive
+v101ade3-1111-4000-c000-000000000001,Grand Ballroom,123 Tech Park,Hyderabad,500,Auditorium,5000.00,true
+v101ade3-1111-4000-c000-000000000002,Sky Lounge,456 High St,Bangalore,100,Outdoor,2000.00,true
+v101ade3-1111-4000-c000-000000000003,Virtual Hub,Zoom Cloud,Online,1000,Virtual,0.00,true

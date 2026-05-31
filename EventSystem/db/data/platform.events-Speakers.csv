@@ -1,0 +1,4 @@
+ID,name,company,expertise,rating,totalTalks,isActive
+s303ade3-3333-4000-c000-000000000001,Akhil Varma,SAP Labs,Cloud CAP,5,15,true
+s303ade3-3333-4000-c000-000000000002,Jane Smith,Google,AI/ML,4,20,true
+s303ade3-3333-4000-c000-000000000003,John Doe,Microsoft,DevOps,3,10,true
