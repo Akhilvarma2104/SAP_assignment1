@@ -1,0 +1,7 @@
+ID,firstName,lastName,specialization,qualification,experience,fee,departmentId,phone,email,availableDays,isActive
+e202fce2-2222-4000-b000-000000000001,Alice,Walker,Cardiology,MD,10,150.00,d101ebd1-1234-4000-a000-000000000001,555-9901,alice@hosp.com,"Mon,Wed",true
+e202fce2-2222-4000-b000-000000000002,Bob,Miller,Neurology,PhD,12,200.00,d101ebd1-1234-4000-a000-000000000002,555-9902,bob@hosp.com,"Tue,Thu",true
+e202fce2-2222-4000-b000-000000000003,Charlie,Davis,Pediatrics,MD,5,100.00,d101ebd1-1234-4000-a000-000000000003,555-9903,charlie@hosp.com,"Fri",true
+e202fce2-2222-4000-b000-000000000004,Diana,Prince,Orthopedics,MBBS,8,180.00,d101ebd1-1234-4000-a000-000000000004,555-9904,diana@hosp.com,"Mon,Fri",true
+e202fce2-2222-4000-b000-000000000005,Edward,Norton,Cardiology,MD,15,250.00,d101ebd1-1234-4000-a000-000000000001,555-9905,ed@hosp.com,"Sat",true
+e202fce2-2222-4000-b000-000000000006,Fiona,Gallagher,Neurology,MD,7,160.00,d101ebd1-1234-4000-a000-000000000002,555-9906,fiona@hosp.com,"Wed",true
