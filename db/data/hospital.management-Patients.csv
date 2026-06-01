@@ -1,6 +1,0 @@
-ID,firstName,lastName,dateOfBirth,gender,bloodGroup,phone,email,address,emergencyContact,registrationDate
-f303ade3-3333-4000-c000-000000000001,John,Doe,1990-01-01,Male,A+,555-1111,john@mail.com,123 Main St,555-0000,2026-05-30
-f303ade3-3333-4000-c000-000000000002,Jane,Smith,1985-05-12,Female,O-,555-2222,jane@mail.com,456 Oak Ave,555-0001,2026-05-30
-f303ade3-3333-4000-c000-000000000003,Sam,Wilson,2010-10-10,Male,B+,555-3333,sam@mail.com,789 Pine Rd,555-0002,2026-05-30
-f303ade3-3333-4000-c000-000000000004,Lucy,Liu,1992-02-28,Female,AB+,555-4444,lucy@mail.com,321 Elm St,555-0003,2026-05-30
-f303ade3-3333-4000-c000-000000000005,Mike,Ross,1988-08-08,Male,A-,555-5555,mike@mail.com,654 Maple Dr,555-0004,2026-05-30

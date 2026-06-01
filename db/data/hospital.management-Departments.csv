@@ -1,5 +1,0 @@
-ID,name,floor,head,capacity,phone,isActive
-d101ebd1-1234-4000-a000-000000000001,Cardiology,1,Dr. Smith,10,555-0101,true
-d101ebd1-1234-4000-a000-000000000002,Neurology,2,Dr. Jones,8,555-0102,true
-d101ebd1-1234-4000-a000-000000000003,Pediatrics,3,Dr. Taylor,15,555-0103,true
-d101ebd1-1234-4000-a000-000000000004,Orthopedics,1,Dr. Brown,12,555-0104,true
