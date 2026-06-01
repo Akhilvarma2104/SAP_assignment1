@@ -1,0 +1,36 @@
+### 1. GET available vehicles
+GET http://localhost:4004/odata/v4/logistics-service/Vehicles?$filter=status eq 'Available'
+
+### 2. GET shipments filtered by status "InTransit"
+GET http://localhost:4004/odata/v4/logistics-service/Shipments?$filter=status eq 'InTransit'
+
+### 3. GET all shipments for a specific customer
+GET http://localhost:4004/odata/v4/logistics-service/Shipments?$filter=customerId eq a101ade3-2222-4000-c000-000000000001
+
+### 4. POST a new shipment booking
+POST http://localhost:4004/odata/v4/logistics-service/Shipments
+Content-Type: application/json
+
+{
+    "trackingNumber": "SL-2026-00009",
+    "customerId": "a101ade3-2222-4000-c000-000000000001",
+    "pickupCity": "Hyderabad",
+    "deliveryCity": "Bangalore",
+    "weight": 15.5,
+    "charges": 500.00
+}
+
+### 5. PATCH shipment status to "Delivered" and set deliveredAt
+PATCH http://localhost:4004/odata/v4/logistics-service/Shipments(ID=ENTER_SHIPMENT_UUID_HERE)
+Content-Type: application/json
+
+{
+    "status": "Delivered",
+    "deliveredAt": "2026-05-31T10:00:00Z"
+}
+
+### 6. GET routes between two cities
+GET http://localhost:4004/odata/v4/logistics-service/Routes?$filter=fromCity eq 'Hyderabad' and toCity eq 'Bangalore'
+
+### 7. GET drivers sorted by rating descending
+GET http://localhost:4004/odata/v4/logistics-service/Drivers?$orderby=rating desc
