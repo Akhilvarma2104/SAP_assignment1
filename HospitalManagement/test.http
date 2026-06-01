@@ -1,0 +1,38 @@
+### GET all doctors filtered by specialization
+GET http://localhost:4004/odata/v4/hospital/Doctors?$filter=specialization eq 'Cardiology'
+
+### GET appointments for a specific date
+GET http://localhost:4004/odata/v4/hospital/Appointments?$filter=appointmentDate eq '2026-06-01'
+
+
+### POST a new patient
+POST http://localhost:4004/odata/v4/hospital/Patients
+Content-Type: application/json
+
+{
+    "firstName": "Akhil",
+    "lastName": "Varma",
+    "dateOfBirth": "1995-01-01",
+    "gender": "Male",
+    "bloodGroup": "O+",
+    "phone": "9988776655",
+    "email": "akhil@example.com",
+    "registrationDate": "2026-05-31"
+}
+
+### 4. POST a new appointment
+POST http://localhost:4004/odata/v4/hospital/Appointments
+Content-Type: application/json
+
+{
+    "patientId": "f303ade3-3333-4000-c000-000000000001",
+    "doctorId": "e202fce2-2222-4000-b000-000000000001",
+    "appointmentDate": "2026-06-15",
+    "appointmentTime": "10:00:00",
+    "reason": "Routine Checkup"
+}
+
+
+### 5. GET patients filtered by blood group
+# Note: Use 'On' because that is the key defined in your schema
+GET http://localhost:4004/odata/v4/hospital/Patients?$filter=bloodGroup eq 'O-'
