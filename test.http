@@ -1,0 +1,67 @@
+http://localhost:4004
+###
+http://localhost:4004/catalog/Books
+
+
+###
+http://localhost:4004/catalog/Books(b1000001-0000-0000-0000-000000000001)
+
+###
+http://localhost:4004/catalog/Authors
+
+###
+http://localhost:4004/catalog/Books?$expand=author
+
+###
+http://localhost:4004/catalog/Authors?$expand=books
+
+###
+http://localhost:4004/catalog/Books?$filter=genre eq 'Fantasy'
+
+###
+http://localhost:4004/catalog/Books?$orderby=price desc
+
+###
+http://localhost:4004/catalog/Books?$top=3
+
+###
+http://localhost:4004/catalog/$metadata
+
+###
+GET /catalog/Authors?$select=name,email
+
+
+###
+POST http://localhost:4004/catalog/Books
+Content-Type: application/json
+
+{
+  "title": "New Book",
+  "price": 15.99
+}
+
+###
+### Create a new author (should work in admin!)
+POST http://localhost:4004/admin/Authors
+Content-Type: application/json
+
+{
+  "name": "Dan Brown",
+  "country": "United States",
+  "email": "dan@example.com"
+}
+
+
+### Create a book for the new author
+POST http://localhost:4004/admin/Books
+Content-Type: application/json
+
+{
+  "title": "The Da Vinci Code",
+  "genre": "Thriller",
+  "price": 14.99,
+  "stock": 100,
+  "rating": 4.2,
+  "isbn": "9780307474278",
+  "author_ID": "<paste-the-new-author-ID-here>"
+}
